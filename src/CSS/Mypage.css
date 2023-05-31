@@ -1,0 +1,99 @@
+:root {
+  --blue: #dba39a;
+  --lightblue: #fff5e4;
+  --gray: #333;
+}
+
+body {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.headerGroup {
+  background: url("/public/img/banner2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90px;
+  position: relative;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.table_ty1 {
+  border: 2px solid #d2d2d2;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  text-align: center;
+
+}
+
+table {
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+th,
+td {
+  border: 1px solid #d2d2d2;
+  border-collapse: collapse;
+}
+
+th {
+  width: 2px;
+  height: 2px;
+}
+
+td {
+  width: 50px;
+  height: 60px;
+}
+
+.name_box1 {
+  color: white;
+  background-color: yellowgreen;
+}
+
+.name_box2 {
+  color: white;
+  background-color: rgb(224, 182, 104);
+}
+
+.name_box3 {
+  color: white;
+  background-color: rgb(233, 164, 139);
+}
+
+.name_box4 {
+  color: white;
+  background-color: burlywood;
+}
+
+.name_box5 {
+  color: white;
+  background-color: rgb(245, 198, 247);
+}
+
+.name_box6 {
+  color: white;
+  background-color: rgb(197, 196, 129);
+}
+
+.name_box7 {
+  color: white;
+  background-color: rgb(157, 150, 184);
+}
+
+.name_box8 {
+  color: white;
+  background-color: rgb(173, 124, 153);
+}
+
+.name_box9 {
+  color: white;
+  background-color: rgb(97, 106, 241);
+}
+
+.name_box10 {
+  color: white;
+  background-color: rgb(171, 223, 75);
+}
