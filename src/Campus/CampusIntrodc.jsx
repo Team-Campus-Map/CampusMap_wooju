@@ -35,7 +35,7 @@ export default function CampusIntrodc() {
           </h3>
         </div>
         <div>
-          <h3>캠퍼스 소개
+          <h3> 총장인사말<tr></tr>
             <h4 className="shooltage1">
               <img src="/img/bu3.jpg" height={300} />
               지난 40여년 동안 백석대학은 한국대학 역사가 주목할 만한 놀라운 성장을 거듭해왔습니다. 일찍부터 ‘젊은 대학, 뜨는 대학’ 으로 주목을 받았으며, 이제는 그 규모와 영향력에서 국내 뿐 아니라 세계적으로도 손에 꼽는 기독교 대학 명문으로 인정받고 있습니다.
