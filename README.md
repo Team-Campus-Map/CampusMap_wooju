@@ -7,4 +7,6 @@
 ### `npm install -save bootstrap`
 ### `npm start`
 ### `npm install react-router-dom`
+### `npm install react-slick --save`
+### `npm install slick-carousel`
 ### `Canpus안에 Slick 이용한거 넣었습다. 글고 아직 Link로 연결 못함..`
