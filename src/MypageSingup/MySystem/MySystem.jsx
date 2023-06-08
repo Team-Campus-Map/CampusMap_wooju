@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 import Information from './Myinformation'
+import { Link } from 'react-router-dom';
 import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem} from'reactstrap';
 
 class MySystem extends Component{
@@ -12,10 +13,6 @@ class MySystem extends Component{
   toggle = (e) => {
     this.setState({dropdownOpen: !this.state.dropdownOpen});
   }
- 
-  handleInformationClick = () => {
-    <Information/>
-  }
   render(){
     return(
     <>
@@ -23,7 +20,7 @@ class MySystem extends Component{
         <DropdownToggle caret> 계정관리 </DropdownToggle>
         <DropdownMenu>
           
-          <DropdownItem onClick = {this.handleInformationClick}>내정보  </DropdownItem>
+          <DropdownItem>내정보  </DropdownItem>
           
         </DropdownMenu>
       </ButtonDropdown>

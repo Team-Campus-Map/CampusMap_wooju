@@ -1,4 +1,4 @@
-import React,{Component} from "react";
+import React,{Component} from 'react';
 import {TabContent, TabPane, Nav, NavItem, NavLink} from 'reactstrap';
 import MySchedule1 from'./MySchedule1';
 import MySchedule2 from'./MySchedule2';
@@ -29,8 +29,8 @@ class MySchedule extends Component{
           </NavItem>
         </Nav>
         <TabContent activeTab={this.state.TabState}>
-          <TabPane tabId="Schadul"><MySchedule1/></TabPane>
-          <TabPane tabId="Schadul2"><MySchedule2/></TabPane>
+          <TabPane tabId='Schadul'><MySchedule1/></TabPane>
+          <TabPane tabId='Schadul2'><MySchedule2/></TabPane>
           </TabContent>
         
       </>

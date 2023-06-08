@@ -4,7 +4,7 @@ import Mypage from "./MypageSingup/Mypage"
 function App() {
   return (
     <>
-      <Mypage/>
+    <Mypage/>
     </>
   );
 }
